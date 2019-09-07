@@ -70,7 +70,7 @@ GitLab CI/CD 不僅可以執行您設置的作業，還可以顯示執行過程�
 
 GitLab CI/CD 通過設置 `.gitlab-ci.yml` 在每一次推送或合併時，觸發已被邊寫好的腳本，被運行的結果可以通過 GitLab Pipeline 看到執行的狀況與最終的結果。
 
-經過上一篇 [GitLab 前世今生](https://ithelp.ithome.com.tw/articles/10213937) 知道 GitLab Runner 於 2015年1月加入，在持續近五年多的發展下，GitLab CI/CD 已日趨成熟完善而穩定，在後續將帶來更多如何設置腳本的方法與技巧，敬請期待。
+經過上一篇 [GitLab 前世今生](https://ithelp.ithome.com.tw/articles/10213937) 知道 GitLab Runner 於 2015年1月加入，在持續近五年多的發展下，GitLab CI/CD 已日趨成熟完善而穩定，在後續將帶來 GitLab Runner 更詳細的介紹，以及如何設置腳本的方法與技巧，敬請期待。
 
 ## Reference
 
