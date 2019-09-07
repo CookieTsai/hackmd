@@ -1,11 +1,11 @@
 ---
-title: Day 8 - GitLab CI 之第一次寫腳本就上手
+title: Day 8 - GitLab 之第一次寫腳本就上手
 tags: 鐵人賽
 description: |
   整理一年來的實務經驗並在三十天的自我挑戰中，找出 GitLab 與 GCP 眾多服務的一個最佳實踐方式
 ---
 
-# Best Practice for DevOps on GitLab and GCP : GitLab CI 之第一次寫腳本就上手 - Day 8 -
+# Best Practice for DevOps on GitLab and GCP : GitLab 之第一次寫腳本就上手 - Day 8 -
 
 ![Imgur](https://i.imgur.com/5JX4fA3.png)
 
