@@ -1,11 +1,11 @@
 ---
-title: Day 12 - GitLab Auto DevOps 一個設定結束 DevOps 回合
+title: Day 12 - GitLab 輕鬆十分鐘入手 Auto DevOps
 tags: 鐵人賽
 description: |
   整理一年來的實務經驗並在三十天的自我挑戰中，找出 GitLab 與 GCP 眾多服務的一個最佳實踐方式
 ---
 
-# Best Practice for DevOps on GitLab and GCP : GitLab Auto DevOps 一個設定結束 DevOps 回合 - Day 12 -
+# Best Practice for DevOps on GitLab and GCP : GitLab 輕鬆十分鐘入手 Auto DevOps - Day 12 -
 
 ![auto devops video](https://i.imgur.com/1GhEVSy.gif)
 ![auto devops title](https://i.imgur.com/NpB2yLC.png)
