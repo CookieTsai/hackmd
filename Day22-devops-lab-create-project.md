@@ -7,6 +7,8 @@ description: |
 
 # Best Practice for DevOps on GitLab and GCP : DevOps Lab 專案環境建置 - Day 21 -
 
+![Imgur](https://i.imgur.com/riS7LgF.jpg)
+
 ## 前言
 
 為完成 DevOps Lab 首要是要能有一個專案。專案是為了能夠持續的被開發並且交付給客戶，以持續的為公司獲取利益為首要。所以無論是否有實現 CI/CD 都應該以建立專案為第一步。而此篇文章就將開始引導各位建立一個小型的 Java 專案。
