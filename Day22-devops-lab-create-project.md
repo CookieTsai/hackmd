@@ -1,11 +1,11 @@
 ---
-title: Day 22 - DevOps Lab 專案環境建置
+title: Day 22 - DevOps Lab 專案環境建置 - GitLab篇
 tags: 鐵人賽
 description: |
   整理一年來的實務經驗並在三十天的自我挑戰中，找出 GitLab 與 GCP 眾多服務的一個最佳實踐方式
 ---
 
-# Best Practice for DevOps on GitLab and GCP : DevOps Lab 專案環境建置 - Day 21 -
+# Best Practice for DevOps on GitLab and GCP : DevOps Lab 專案環境建置 - GitLab篇 - Day 22 -
 
 ![Imgur](https://i.imgur.com/riS7LgF.jpg)
 
@@ -67,7 +67,7 @@ $ cd devops-lab/
 
 ![Imgur](https://i.imgur.com/95dxDnH.png)
 
-> 8. (Option) 至`設定 > 版本庫 > Protected Branches` 將 `prod` 設定為僅有 Maintainers 可以 push 和 merge
+> 8. 至`設定 > 版本庫 > Protected Branches` 將 `prod` 設定為僅有 Maintainers 可以 push 和 merge (Option) 
 
 ![Imgur](https://i.imgur.com/3ozt1KL.png)
 
