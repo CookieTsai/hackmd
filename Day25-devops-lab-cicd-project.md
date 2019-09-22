@@ -44,29 +44,29 @@ devops-lab
 
 ### 工具篇
 
-**Apache Maven**
+> **Apache Maven**
 
 在檔案中有一個 `pom.xml` 這是 Maven 專案的特徵，在檔案中會描述著專案使用的套件、建置方式以及各種與專案建置管理相關的設定，通過使用 `mvn clean package` 指令會進行打包，並預設放置於 `target` 資料夾之中。
 
 在打包的過程中實際上經過 `validate` > `compile` > `test` > `package`，這意味著當使用 Maven 完成打包時是已經通過單元測試。
 
-**mvnw**
+> **mvnw**
 
 這是一種當作業系統有安裝 JDK 沒有安裝 Maven 時，依舊能夠正常通過 mvnw 指令運行 Maven 相關功能的工具。使用上非常簡單原本使用 `mvn` 執行的內容都改為 `mvnw` 即可。
 
 專案中 `wrapper` 資料夾內的資料就是當發現系統沒有安裝 Maven 時會使用到的相關程式。
 
-**Docker**
+> **Docker**
 
 專案中有 `Dockerfile` 內容描寫了如何將專案，建置成 Docker Image 的方法，並在運行 Docker 容器時，會使服務監聽在 5000 Port。想測試建置是否能正常的話，要在本機安裝 Docker 並執行 `docker build -t {repository name} .`。
 
 ### Java 函式庫篇
 
-**Spring Framework**
+> **Spring Framework**
 
 在專案中主要是利用到 Spring Framework 實現一個 Web Service，並在 `DemoApplication.java` 中撰寫了一個 API 只要當伺服器啟動後訪問根網頁，就會獲得一個 `Spring is here!` 的回應。
 
-**Junit**
+> **Junit**
 
 `DemoApplicationTests.java` 使用 junit 及 Spring Framework 中的 Test 工具，實現對根網頁 API 的請求測試並確認回傳內容應為 `Spring is here!`。
 
